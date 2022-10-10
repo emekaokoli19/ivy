@@ -5,30 +5,9 @@ svdvals
 
 .. autofunction:: ivy.array.array_methods.svdvals
 
-.. autofunction:: ivy.container.container_methods.static_svdvals
-
 .. autofunction:: ivy.container.container_methods.svdvals
 
-.. list-table:: Device Support
-   :widths: 20 20 20 20 20
-   :header-rows: 1
-
-   * - Device
-     - JAX
-     - NumPy
-     - TensorFlow
-     - PyTorch
-   * - CPU
-     - ✅
-     - ✅
-     - ✅
-     - ✅
-   * - GPU
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-
+.. autofunction:: ivy.container.container_methods.static_svdvals
 |
 | **Supported Frameworks:**
 
